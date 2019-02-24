@@ -47,7 +47,7 @@ public class BasicVariableType {
         boolean 鸭鸭鸭鸭鸭鸭鸭 = true;
         /**
          * 8. char 
-         *      16位Unicode字符 \u0000~\uffff。因为是Unicode，所以存啥都可以
+         *      16位Unicode字符 /u0000~/uffff。因为是Unicode，所以存啥都可以
          */
         char 鸭鸭鸭鸭鸭鸭鸭鸭 = '鸭';
 
@@ -79,5 +79,39 @@ public class BasicVariableType {
          *      1.整数型默认为int，赋值时会类型转换
          *      2.浮点因为要在后面加 f / d 所以没有这个问题
          */
+
+        // 变量同C/C艹，先声明后使用，声明格式如下
+        // type identifier [ = value][, identifier [= value] ...] ;
+        // 不能像C艹 那样 int a(3); 对象必须是 new 出来的 
+
+        // Java 变量类型有三种（参见 file://..\ClassAndObj\ClassAndObj.java ）
+        //      1. 类变量 类中 独立于方法  用 static 修饰
+        //      2. 实例变量 类中 独立于方法 无 static 修饰
+        //      3. 局部变量 类中 方法中的变量
+        Demostration ya = new Demostration();
     }
+}
+
+class Demostration {
+    /**
+     * 实例变量 
+     *      对象创建的时候创建
+     *      有默认值
+     */
+    int yayaya;
+    public Demostration() {
+        /**
+         * 局部变量
+         *      在栈上定义
+         *      没有默认值，必须初始化后才能使用
+         */
+        int 鸭鸭鸭 = 233;
+        System.out.print(鸭鸭鸭);
+    }
+    /**
+     * 类变量
+     *      储存在静态储存区
+     *      对象中的类变量只是类变量的浅拷贝（或者叫引用鸭？）
+     *      声明为public/private + final和static
+     */
 }

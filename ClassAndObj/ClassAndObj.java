@@ -4,7 +4,7 @@ import java.util.*;
  * SingleDog
  */
 class SingleDog {
-    // 成员变量 
+    // 成员变量 （实例变量）
     int age;
 
     // 类的方法
