@@ -52,6 +52,31 @@ public class Test {
 # Number & Math 类方法
 | 函数 | 功能 | 返回值意义 |
 | --- | --- | --- |
-| xxxValue() | 将Number对象转换为xxx类型，eg：DoubleValue | |
+| XXXValue() | 将Number对象转换为XXX类型，eg：DoubleValue 
 | compareTo() | 比较大小 | 比形参小返回-1，大返回1，相等0 |
+| equals() | 是否与参数相等 | 相等返回true，不相等返回false |
+| valueOf() | 类似 python 的int(string base=) | 与对象一致的值 |
+| toString() | 以字符串形式返回值。
+| parseXXX() | 将字符串解析为XXX类型。
+| abs() | 绝对值 
+| ceil() | 向上取整 
+| floor() | 向下取整 
+| rint() | 取最接近的整数，返回类型为double 
+| round() | 四舍五入，即加上0.5向下取整 
+| min() | 同C艹
+| max() | 同C艹
+| exp() | e^x 
+| log() | 自然对数
+| pow() | 同C艹
+| sqrt() | 同C艹
+| sin() | 同C艹(注意三角函数都是对double用的)
+| cos() | 同C艹
+| tan() | 同C艹
+| asin() | 同C艹
+| acos() | 同C艹
+| atan() | 同C艹
+| atan2() | 将坐标转换成极坐标，返回极角
+| toDegrees() | 转换成角度
+| toRadians() | 转换成弧度
+| random() | 返回[0, 1)随机数
 
