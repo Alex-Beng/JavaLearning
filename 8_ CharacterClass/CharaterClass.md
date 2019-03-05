@@ -28,7 +28,7 @@ char c = test('x');
 |\f|换页|
 |\'|单引号|
 |\"|双引号|
-|\\|反斜杠|
+| \\ |反斜杠|
 
 # Charater 方法
 ![charater funcs](../Source/CharaterFuncs.JPG)
