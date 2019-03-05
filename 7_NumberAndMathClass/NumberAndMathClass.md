@@ -1,5 +1,6 @@
 # Number类
 ![relation graph](../Source/NumberClass.png)
+
 如上图，**所有的包装类 Integer、Long、Byte、Double、Float、Short**都是抽象类 Number 的子类。
 
 这种由编译器特别支持的包装称为**装箱**，所以当内置数据类型被当作对象使用的时候，编译器会把内置类型装箱为包装类。相似的，编译器也可以把一个对象**拆箱**为内置类型。Number 类属于 java.lang 包。
