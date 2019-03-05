@@ -31,4 +31,4 @@ char c = test('x');
 |\\|反斜杠|
 
 # Charater 方法
-![charater funcs](../Source/CharaterFuncs.jpg)
+![charater funcs](../Source/CharaterFuncs.JPG)
