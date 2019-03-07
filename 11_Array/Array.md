@@ -93,4 +93,4 @@ in java.util.Arrays
 3. 比较数组：通过 equals 方法比较数组中元素值是否相等。
 4. 查找数组元素：通过 binarySearch 方法能对排序好的数组进行二分查找法操作。
 
-![array funcs](..\Source\ArrayFuncs.JPG)
+![array funcs](../Source/ArrayFuncs.JPG)
