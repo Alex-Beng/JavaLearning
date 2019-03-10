@@ -26,8 +26,8 @@ public class Test{
 
 # StringBuffer 方法
 
-![string buffer funcs](../Source/StringBufferFuncs_1.JPG)
+![string buffer funcs](../../Source/StringBufferFuncs_1.JPG)
 
 和 String 类的方法类似的方法：
 
-![string buffer fucs](../Source/StringBufferFuncs_2.JPG)
+![string buffer fucs](../../Source/StringBufferFuncs_2.JPG)

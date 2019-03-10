@@ -63,12 +63,12 @@ fs = String.format("浮点型变量的值为 " +
 
 # String 方法
 
-![string funcs 1](../Source/StringFuncs_1.JPG)
+![string funcs 1](../../Source/StringFuncs_1.JPG)
 
-![string funcs 2](../Source/StringFuncs_2.JPG)
+![string funcs 2](../../Source/StringFuncs_2.JPG)
 
-![string funcs 3](../Source/StringFuncs_3.JPG)
+![string funcs 3](../../Source/StringFuncs_3.JPG)
 
-![string funcs 4](../Source/StringFuncs_4.JPG)
+![string funcs 4](../../Source/StringFuncs_4.JPG)
 
 更多参考<https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html>
