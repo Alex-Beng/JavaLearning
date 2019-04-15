@@ -1,21 +1,21 @@
-// import java.io.*;
-// public class MyClass 
-// {
-// private int val1,val2;
-//     public void myFun(int x,int y)
-//     {
-//         val1=x;
-//         val2=y;
-//         System.out.println("the sum is "+(val1+val2));
-//     }
-    
-//     public static void main(String arg[])
-//     {
-//         MyClass MyObj=new MyClass();
-//         MyObj.myFun(3,4);
-//     }
-// }
+import java.io.*;
+public class MyClass
+{
+private int val1,val2;
+    public void myFun(int x,int y)
+{
+         val1=x;
+         val2=y;
+         System.out.println("the sum is "+(val1+val2));
+     }
 
+     public static void main(String arg[])
+     {
+         MyClass MyObj=new MyClass();
+         MyObj.myFun(3,4);
+     }
+ }
+/*
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -33,7 +33,7 @@ public class MyClass {
 
         Date now = new Date( );
         SimpleDateFormat ft = new SimpleDateFormat ("MM");
-  
+
         System.out.println("Current Date: " + ft.format(date2));
         int m = Integer.valueOf(ft.format(date2)).intValue();
         System.out.println(m>7);
@@ -45,12 +45,12 @@ public class MyClass {
         // SimpleDateFormat sdf2=new SimpleDateFormat("yyyy-MM-dd");//显示2017-10-27格式
         // SimpleDateFormat sdf3=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//显示2017-10-27 10:00:00格式
         // SimpleDateFormat  sdf4=new SimpleDateFormat("yyyy年MM月dd日HH时mm分ss秒");//显示2017年10月27日10时00分00秒格式
-        
-        // SimpleDateFormat sdf =  new SimpleDateFormat( "yyyy-MM-dd" ); 
-        // date = sdf.parse( "2008-07-10" ); 
+
+        // SimpleDateFormat sdf =  new SimpleDateFormat( "yyyy-MM-dd" );
+        // date = sdf.parse( "2008-07-10" );
         // SimpleDateFormat t = new SimpleDateFormat("MM");
         // System.out.println(t.format(date));
-        
+
         // //将格式应用于日期
         // System.out.println(sdf1.format(date));//20171027
         // System.out.println(sdf2.format(date));//2017-10-27
@@ -58,3 +58,4 @@ public class MyClass {
         // System.out.println(sdf4.format(date));//2017年10月27日17时11分13秒
     }
 }
+*/
