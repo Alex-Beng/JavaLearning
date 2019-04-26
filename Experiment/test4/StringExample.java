@@ -2,47 +2,47 @@ class StringExample
 {   public static void main(String args[])
     {   String s1=new String("you are a student"),
          s2=new String("how are you");
-        if(s1.equals(s2)) // Ê¹ÓÃequals·½·¨ÅĞ¶Ïs1Óës2ÊÇ·ñÏàÍ¬
+        if(s1.equals(s2)) // ä½¿ç”¨equalsæ–¹æ³•åˆ¤æ–­s1ä¸s2æ˜¯å¦ç›¸åŒ
          {
-            System.out.println("s1Óës2ÏàÍ¬");
+            System.out.println("s1ä¸s2ç›¸åŒ");
          }
         else
          {
-           System.out.println("s1Óës2²»ÏàÍ¬");
+           System.out.println("s1ä¸s2ä¸ç›¸åŒ");
          }
          String s3=new String("22030219851022024");
-         if(s3.startsWith("220302"))   //ÅĞ¶Ïs3µÄÇ°×ºÊÇ·ñÊÇ¡°220302¡±¡£
+         if(s3.startsWith("220302"))   //åˆ¤æ–­s3çš„å‰ç¼€æ˜¯å¦æ˜¯â€œ220302â€ã€‚
          {
-                System.out.println("¼ªÁÖÊ¡µÄÉí·İÖ¤");
+                System.out.println("å‰æ—çœçš„èº«ä»½è¯");
          }
-         String s4=new String("Äã"),
-              s5=new String("ÎÒ");
-         if(s1.compareTo(s4) < 0)//°´×Å×ÖµäĞòs4´óÓÚs5µÄ±í´ïÊ½¡£
+         String s4=new String("ä½ "),
+              s5=new String("æˆ‘");
+         if(s1.compareTo(s4) < 0)//æŒ‰ç€å­—å…¸åºs4å¤§äºs5çš„è¡¨è¾¾å¼ã€‚
          {
-             System.out.println("°´×ÖµäĞòs4´óÓÚs5");
+             System.out.println("æŒ‰å­—å…¸åºs4å¤§äºs5");
          }
          else
          {
-             System.out.println("°´×ÖµäĞòs4Ğ¡ÓÚs5");
+             System.out.println("æŒ‰å­—å…¸åºs4å°äºs5");
          }
          int position=0;
          String path="c:\\java\\jsp\\A.java";
-         position= path.lastIndexOf("\\"); //»ñÈ¡pathÖĞ×îºó³öÏÖÄ¿Â¼·Ö¸ô·ûºÅµÄÎ»ÖÃ
-         System.out.println("c:\\java\\jsp\\A.javaÖĞ×îºó³öÏÖ\\µÄÎ»ÖÃ:"+position);
-         String fileName=path.substring(position); //»ñÈ¡pathÖĞ¡°A.java¡±×Ó×Ö·û´®¡£
-         System.out.println("c:\\java\\jsp\\A.javaÖĞº¬ÓĞµÄÎÄ¼şÃû:"+fileName);
+         position= path.lastIndexOf("\\"); //è·å–pathä¸­æœ€åå‡ºç°ç›®å½•åˆ†éš”ç¬¦å·çš„ä½ç½®
+         System.out.println("c:\\java\\jsp\\A.javaä¸­æœ€åå‡ºç°\\çš„ä½ç½®:"+position);
+         String fileName=path.substring(position); //è·å–pathä¸­â€œA.javaâ€å­å­—ç¬¦ä¸²ã€‚
+         System.out.println("c:\\java\\jsp\\A.javaä¸­å«æœ‰çš„æ–‡ä»¶å:"+fileName);
          String s6=new String("100"),
                 s7=new String("123.678");
-         int n1 = Integer.valueOf(s6).intValue();     //½«s6×ª»¯³ÉintĞÍÊı¾İ¡£
-         double n2 =Double.valueOf(s7.toString());  //½«s7×ª»¯³ÉdoubleĞÍÊı¾İ¡£
+         int n1 = Integer.valueOf(s6).intValue();     //å°†s6è½¬åŒ–æˆintå‹æ•°æ®ã€‚
+         double n2 =Double.valueOf(s7.toString());  //å°†s7è½¬åŒ–æˆdoubleå‹æ•°æ®ã€‚
          double m=n1+n2;
          System.out.println(m);
-         String s8=String.valueOf(m); //Stringµ÷ÓÃvaluOf(int n)·½·¨½«m×ª»¯Îª×Ö·û´®¶ÔÏó
+         String s8=String.valueOf(m); //Stringè°ƒç”¨valuOf(int n)æ–¹æ³•å°†mè½¬åŒ–ä¸ºå­—ç¬¦ä¸²å¯¹è±¡
          position=s8.indexOf(".");
          String temp=s8.substring(position+1);
-         System.out.println("Êı×Ö"+m+"ÓĞ"+temp.length()+"Î»Ğ¡Êı") ;
+         System.out.println("æ•°å­—"+m+"æœ‰"+temp.length()+"ä½å°æ•°") ;
          String s9=new String("ABCDEF");
-         char a[]=s8.toCharArray();    //½«s8´æ·Åµ½Êı×éaÖĞ¡£
+         char a[]=s8.toCharArray();    //å°†s8å­˜æ”¾åˆ°æ•°ç»„aä¸­ã€‚
          for(int i=a.length-1;i>=0;i--)
           {
              System.out.print(" "+a[i]);

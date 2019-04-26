@@ -5,7 +5,7 @@ class CCircle   {
     final double pi = 3.14159;    
     double radius;
     double getArea() {
-        return pi*radius*radius*0.5;
+        return pi*radius*radius;
     }
     double getRadius(){
         return radius;

@@ -28,7 +28,7 @@ public class Book {
         int month;
         SimpleDateFormat t_df = new SimpleDateFormat("MM");
         month = Integer.valueOf(t_df.format(pdate)).intValue();
-        System.out.println(month);
+        // System.out.println(month);
         if (month <= 6) {
             return words/1000.0*35.0*1.2;
         }

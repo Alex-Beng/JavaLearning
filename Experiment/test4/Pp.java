@@ -19,43 +19,43 @@ class People
 
 class ChinaPeople extends People
 {
-	// [´úÂë1]//ÖØĞ´public void speakHello()·½·¨£¬ÒªÇóÊä³ö"ÄãºÃ£¬³Ô·¹ÁËÂğ"ººÓïĞÅÏ¢
+	// [ä»£ç 1]//é‡å†™public void speakHello()æ–¹æ³•ï¼Œè¦æ±‚è¾“å‡º"ä½ å¥½ï¼Œåƒé¥­äº†å—"æ±‰è¯­ä¿¡æ¯
     public void speakHello() {
-        System.out.println("ÄãºÃ£¬³Ô·¹ÁËÂğ");
+        System.out.println("ä½ å¥½ï¼Œåƒé¥­äº†å—");
     }
-	//[´úÂë2]//ÖØĞ´public void averageHeight()·½·¨£¬ÒªÇóÊä³ö"ÖĞ¹úÈËµÄÆ½¾ùÉí¸ß£º173.0ÀåÃ×"ººÓïĞÅÏ¢
+	//[ä»£ç 2]//é‡å†™public void averageHeight()æ–¹æ³•ï¼Œè¦æ±‚è¾“å‡º"ä¸­å›½äººçš„å¹³å‡èº«é«˜ï¼š173.0å˜ç±³"æ±‰è¯­ä¿¡æ¯
     public void averageHeight()
     {
         height=173;
-        System.out.println("ÖĞ¹úÈËµÄÆ½¾ùÉí¸ß:"+height);
+        System.out.println("ä¸­å›½äººçš„å¹³å‡èº«é«˜:"+height);
     }
-    // [´úÂë3]//ÖØĞ´public void averageWeight()·½·¨£¬ÒªÇóÊä³ö"ÖĞ¹úÈËµÄÆ½¾ùÌåÖØ£º67.34¹«½ï"ººÓïĞÅÏ¢
+    // [ä»£ç 3]//é‡å†™public void averageWeight()æ–¹æ³•ï¼Œè¦æ±‚è¾“å‡º"ä¸­å›½äººçš„å¹³å‡ä½“é‡ï¼š67.34å…¬æ–¤"æ±‰è¯­ä¿¡æ¯
      public void averageWeight()
     {
         weight = 67.34;
-        System.out.println("ÖĞ¹úÈËµÄÆ½¾ùÌåÖØ:"+weight);
+        System.out.println("ä¸­å›½äººçš„å¹³å‡ä½“é‡:"+weight);
     }
 	public void chinaGongfu()
 	{
-    //[´úÂë4]//Êä³öÖĞ¹úÎäÊõĞÅÏ¢£¬ÀıÈç£º"×øÈçÖÓ£¬Õ¾ÈçËÉ£¬Ë¯Èç¹­"
+    //[ä»£ç 4]//è¾“å‡ºä¸­å›½æ­¦æœ¯ä¿¡æ¯ï¼Œä¾‹å¦‚ï¼š"åå¦‚é’Ÿï¼Œç«™å¦‚æ¾ï¼Œç¡å¦‚å¼“"
 
-        System.out.println("×øÈçÖÓ£¬Õ¾ÈçËÉ£¬Ë¯Èç¹­");
+        System.out.println("åå¦‚é’Ÿï¼Œç«™å¦‚æ¾ï¼Œç¡å¦‚å¼“");
 	}
 }
 
 class AmericanPeople extends People
 {
-	//[´úÂë5]//ÖØĞ´public void speakHello()·½·¨£¬ÒªÇóÊä³ö"How do you do"
+	//[ä»£ç 5]//é‡å†™public void speakHello()æ–¹æ³•ï¼Œè¦æ±‚è¾“å‡º"How do you do"
 	public void speakHello() {
         System.out.println("How do you do");
     }
-	//[´úÂë6]//ÖØĞ´public void averageHeight()·½·¨
+	//[ä»£ç 6]//é‡å†™public void averageHeight()æ–¹æ³•
 	public void averageHeight()
     {
         height=173;
         System.out.println("height:"+height);
     }
-     //[´úÂë7]//ÖØĞ´public void averageWeight()·½·¨
+     //[ä»£ç 7]//é‡å†™public void averageWeight()æ–¹æ³•
       public void averageWeight()
     {
         weight = 66.66;
@@ -63,24 +63,24 @@ class AmericanPeople extends People
     }
 	public void americanBoxing()
 	{
-     //[´úÂë8]//Êä³öÈ­ÊõĞÅÏ¢£¬ÀıÈç£º"Ö±È­¡¢¹´È­"
+     //[ä»£ç 8]//è¾“å‡ºæ‹³æœ¯ä¿¡æ¯ï¼Œä¾‹å¦‚ï¼š"ç›´æ‹³ã€å‹¾æ‹³"
      System.out.println("yoyo chick it out");
 	}
 }
 
 class BeijingPeople extends ChinaPeople
 {
-	//[´úÂë9]//ÖØĞ´public void speakHello()·½·¨£¬ÒªÇóÊä³ö"ÄúºÃ£¬ÕâÀïÊÇ±±¾©"
+	//[ä»£ç 9]//é‡å†™public void speakHello()æ–¹æ³•ï¼Œè¦æ±‚è¾“å‡º"æ‚¨å¥½ï¼Œè¿™é‡Œæ˜¯åŒ—äº¬"
 	public void speakHello() {
-        System.out.println("ÄúºÃ£¬ÕâÀïÊÇ±±¾©");
+        System.out.println("æ‚¨å¥½ï¼Œè¿™é‡Œæ˜¯åŒ—äº¬");
     }
-	//[´úÂë10]//ÖØĞ´public void averageHeight()·½·¨
+	//[ä»£ç 10]//é‡å†™public void averageHeight()æ–¹æ³•
 	public void averageHeight()
     {
         height=173;
         System.out.println("beijin height:"+height);
     }
-     //[´úÂë11]//ÖØĞ´public void averageWeight()·½·¨
+     //[ä»£ç 11]//é‡å†™public void averageWeight()æ–¹æ³•
      public void averageWeight()
     {
         weight = 66.66;
@@ -88,8 +88,8 @@ class BeijingPeople extends ChinaPeople
     }
 	public void beijingOpera()
 	{
-    //[´úÂë12]//Êä³ö¾©¾çĞÅÏ¢£¬ÀıÈç£º"¾©¾çÊõÓï"
-    System.out.println("¾©¾çÊõÓï");
+    //[ä»£ç 12]//è¾“å‡ºäº¬å‰§ä¿¡æ¯ï¼Œä¾‹å¦‚ï¼š"äº¬å‰§æœ¯è¯­"
+    System.out.println("äº¬å‰§æœ¯è¯­");
 	}
 }
 
